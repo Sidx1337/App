@@ -5,13 +5,13 @@
 <template>
   <v-container>
 
-    <v-row class="list__cafes-title">
+    <v-row class="list__places-title">
       <v-col>
-        <h2 class="text-center text-h3 py-3">List of cafes</h2>
+        <h2 class="text-center text-h3 py-3">List of places</h2>
       </v-col>
     </v-row>
 
-    <v-row class="list__cafes-content">
+    <v-row class="list__places-content">
       <v-col md="4" v-for="item in items_list" :key="item.id">
 
         <v-card>
@@ -22,7 +22,7 @@
           ></v-img>
 
           <v-card-title>
-            <router-link to="/cafe/view">
+            <router-link to="/place/view">
               <h3 class="text-h4">{{ item.title }}</h3>
             </router-link>
           </v-card-title>
@@ -39,14 +39,14 @@
 </template>
 <script>
 export default {
-  name: 'GList',
+  name: 'MainList',
   data: () => ({
     items_list: [
       {
         id: 0,
-        title: 'Заведение 1',
-        description: 'Земеля',
-        img: './assets/item.png'
+        title: 'RIBIZA BEACH CLUB',
+        description: 'Хочешь спустить свою зарплату тебе сюда!',
+        img: './assets/ribiza.jpg'
       },
       {
         id: 1,

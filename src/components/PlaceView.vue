@@ -1,19 +1,19 @@
 <template>
   <v-container>
 
-    <CafeInfo></CafeInfo>
+    <PlaceInfo></PlaceInfo>
     <CafeMenu></CafeMenu>
 
   </v-container>
 </template>
 
 <script>
-import CafeInfo from './CafeInfo.vue'
-import CafeMenu from './Cafe/CafeMenu.vue'
+import PlaceInfo from './PlaceInfo.vue'
+import CafeMenu from './PlaceDiscription/CafeMenu.vue'
 export default {
   name: 'CafeView',
   components: {
-    CafeInfo,
+    PlaceInfo,
     CafeMenu
   }
 }

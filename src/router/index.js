@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import GLogin from '../components/GLogin.vue'
-//import CafeView from "@/components/CafeView";
-import GList from '../components/GList.vue'
+import UserLogin from '../components/UserLogin.vue'
+import PlaceView from '../components/PlaceView.vue'
+import MainList from '../components/MainList.vue'
 
 
 Vue.use(VueRouter)
@@ -10,14 +10,18 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: GList
+    name: 'mainlist',
+    component: MainList
   },
-
+  {
+    path: '/place/view',
+    name: 'placeview',
+    component: PlaceView
+  },
   {
     path: '/login',
     name: 'login',
-    component: GLogin
+    component: UserLogin
   }
 
 ]

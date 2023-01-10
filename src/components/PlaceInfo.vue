@@ -32,7 +32,7 @@
 </template>
 <script>
 export default {
-  name: 'CafeInfo',
+  name: 'PlaceInfo',
   data: () => ({
     main_info: {
       img: './assets/restik.jpeg',
