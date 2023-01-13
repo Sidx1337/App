@@ -13,7 +13,7 @@
 
     <v-row class="list__places-title">
       <v-col>
-        <h2 class="text-center text-h3 py-3">PLACES</h2>
+        <h2 class="text-center text-h3 py-3">ГОРОДА</h2>
       </v-col>
     </v-row>
 
@@ -57,16 +57,40 @@ export default {
     items_list: [
       {
         id: 0,
-        title: 'RIBIZA BEACH CLUB',
-        description: 'Хочешь спустить свою зарплату тебе сюда!',
-        img: './assets/ribiza.jpg'
+        title: 'CИМФЕРОПОЛЬ',
+        description: 'ГОРОД СОБИРАТЕЛЬ',
+        img: './assets/simferopol.jpg'
+      },
+      {
+        id: 0,
+        title: 'СЕВАСТОПОЛЬ',
+        description: 'ГОРОД ГЕРОЙ',
+        img: './assets/sevastopol.jpg'
       },
       {
         id: 1,
-        title: 'Заведение 2',
-        description: 'Lorem ipsum',
-        img: './assets/restik.jpeg'
-      }
+        title: 'ЕВПАТОРИЯ',
+        description: 'ГОРОД',
+        img: './assets/evpatoria.jpg'
+      },
+      {
+        id: 2,
+        title: 'ЯЛТА',
+        description: 'ГОРОД СЧАСТЬЯ',
+        img: './assets/yalta.jpg'
+      },
+      {
+        id: 3,
+        title: 'КЕРЧЬ',
+        description: 'ГОРОД ГЕРОЙ',
+        img: './assets/kerch.jpg'
+      },
+      {
+        id: 4,
+        title: 'CУДАК',
+        description: 'ГОРОД',
+        img: './assets/sudak.jpg'
+      },
     ]
   })
 }
