@@ -65,7 +65,7 @@ export default {
       stateObj: {
         register :{
           name: 'Register',
-          message: 'Aleady have an Acoount? login.'
+          message: 'Already have an Account? login.'
         },
         login : {
           name: 'Login',

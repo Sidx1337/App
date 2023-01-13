@@ -27,7 +27,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title>
-        <h3 class="text-h4 white--text">TravelCrimea</h3>
+        <h3 class="text-h4 white--text">CrimeaBadTrip</h3>
       </v-app-bar-title>
     </v-app-bar>
 
@@ -71,21 +71,26 @@ export default {
     menu_items: [
       {
         id: 0,
+        name: 'Логин',
+        url: '/login'
+      },
+      {
+        id: 1,
         name: 'Список мест',
         url: '/'
       },
       {
-        id: 1,
+        id: 2,
         name: 'О нас',
         url: '#'
       },
       {
-        id: 2,
+        id: 3,
         name: 'Контакты',
         url: '#'
       },
       {
-        id: 3,
+        id: 4,
         name: 'Помощь',
         url: '#'
       }

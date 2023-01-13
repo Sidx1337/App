@@ -10,12 +10,12 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'mainlist',
+    name: 'mainList',
     component: MainList
   },
   {
     path: '/place/view',
-    name: 'placeview',
+    name: 'placeView',
     component: PlaceView
   },
   {
